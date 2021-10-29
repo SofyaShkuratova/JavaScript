@@ -9,4 +9,14 @@
 // } else {
 // 	console.log(‘ALOHA!’);
 // }
+const age = +prompt(`enter your age`);
 
+console.log (
+    age < 10
+    ? `Hi`
+    : age < 20
+    ? `Hello`
+    : age < 50
+    ? `Good day`
+    : `ALOHA`
+);
